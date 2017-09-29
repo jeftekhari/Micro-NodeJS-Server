@@ -1,0 +1,16 @@
+{
+  "name": "microServer",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "build": "async-to-gen input.js > output.js"
+  },
+  "dependencies": {
+    "async-to-gen": "^1.3.3",
+    "express": "^4.16.0",
+    "highcharts": "^5.0.14",
+    "micro": "latest",
+    "node-fetch": "^1.7.3",
+    "path": "^0.12.7"
+  }
+}
